@@ -11,7 +11,7 @@ someinternalhost_IP = 10.128.0.18
 **для подключения создается файл в ~/.ssh/config в котором делаются следующие настройки**
   
 Host bastion  
-    HostName 62.84.113.81  
+    HostName 62.84.114.6  
     User appuser  
     Port 22  
     IdentityFile ~/.ssh/appuser  
@@ -30,7 +30,7 @@ ssh -J bastion someinternalhost
    в ~/.bashrc добавляем   
    alias someinternalhost='ssh -J bastion someinternalhost'  
   
-**Доступ к консоли VPN сервера организован по адресу https://62.84.113.81.sslip.io ** 
+**Доступ к консоли VPN сервера организован по адресу https://62.84.114.6.sslip.io ** 
   
 **Был сгенерирован сертификат и добавлен в конфиг**  
   
@@ -44,7 +44,7 @@ cat /etc/pritunl.conf
     "www_path": "/usr/share/pritunl/www",  
     "local_address_interface": "auto",  
     "port": 443,  
-    "ssl_certificate": "/etc/letsencrypt/live/62.84.113.81.sslip.io/fullchain.pem",  
-    "ssl_certificate_key": "/etc/letsencrypt/live/62.84.113.81.sslip.io/privkey.pem"  
+    "ssl_certificate": "/etc/letsencrypt/live/62.84.114.6.sslip.io/fullchain.pem",  
+    "ssl_certificate_key": "/etc/letsencrypt/live/62.84.114.6.sslip.io/privkey.pem"  
 }  
 
