@@ -4,7 +4,7 @@ zmd73 Infra repository
 
 **Основное задание:**  
 
-bastion_IP = 62.84.113.81  
+bastion_IP = 62.84.114.6  
 someinternalhost_IP = 10.128.0.18
 
 
