@@ -1,7 +1,7 @@
 {
     "service_account_key_file": "key.json",
     "folder_id": "abcde",
-    "image_name": "reddit-base",
+    "image_id": "reddit-base",
     "disk_size_gb": "15",
     "image": "ubuntu-1604-lts"
 }
