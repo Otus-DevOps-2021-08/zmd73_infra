@@ -68,12 +68,3 @@ variable db_core_fraction {
   description = "Core fraction"
   default     = "20"
 }
-variable access_key {
-  description = "key id"
-}
-variable secret_key {
-  description = "secret key"
-}
-variable bucket_name {
-  description = "bucket name"
-}
