@@ -3,7 +3,6 @@
   hosts: all
   become: true
   tasks:
-
   - name: Install git and ruby
     package:
       name: "{{ item }}"
