@@ -11,6 +11,7 @@
             "platform_id": "standard-v1",
             "subnet_id": "e2ljfge7scm37uvjd3v4",
             "zone": "ru-central1-b",
+            "key_file":"packer/files/key.json",
             "use_ipv4_nat": "true"
         }
     ],
